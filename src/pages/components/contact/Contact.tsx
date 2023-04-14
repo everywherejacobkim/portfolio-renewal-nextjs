@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="bg-gray-100 w-full pb-8">
+    <section id="contact" className="relative bg-gray-100 w-full pb-8 mt-[12%]">
       <div className='speech-bubble'>
         <p className='bubble-text'>Drop Me A Line !</p>
       </div>
@@ -70,9 +70,10 @@ const Contact: React.FC = () => {
             <Image
               src={contactMe}
               alt="me"
-              
-              height={350}
-              className="rounded-full m-4"
+              width={450}
+              height={450}
+              className=""
+              style={{ borderRadius: "50%" }}
             />
           </StyledBadge>
         </div>
