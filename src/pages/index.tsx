@@ -1,5 +1,4 @@
 import Header from './components/header';
-import Jumbotron from './components/jumbotron/jumbotron';
 import Footer from './components/footer';
 import MainFigure from './components/mainFigure';
 import Contact from './components/contact/Contact';

@@ -12,6 +12,7 @@ const Jumbotron = ({
   fontColor,
   btnColor,
   btnTextColor,
+  btnLabel,
 }: {
     title: string;
     description: string;
@@ -21,6 +22,7 @@ const Jumbotron = ({
     fontColor?: string;
     btnColor?: string;
     btnTextColor?: string;
+    btnLabel?: string;
 }) => {
   return (
     <div className={classNames("w-full p-32", bgColor || "bg-transparent")}>
@@ -29,6 +31,7 @@ const Jumbotron = ({
           <div>
             <Image
               src={image}
+              className="rounded-xl shadow-2xl"
               alt="image description"
               width={600}
               height={600}
@@ -37,8 +40,10 @@ const Jumbotron = ({
           <ContentBlock
             title={title}
             description={description}
+            fontColor={fontColor}
             btnColor={btnColor}
             btnTextColor={btnTextColor}
+            btnLabel={btnLabel}
           />
         </div>
       )}
@@ -47,12 +52,15 @@ const Jumbotron = ({
           <ContentBlock
             title={title}
             description={description}
+            fontColor={fontColor}
             btnColor={btnColor}
             btnTextColor={btnTextColor}
+            btnLabel={btnLabel}
           />
           <div>
             <Image
               src={image}
+              className="rounded-xl shadow-2xl"
               alt="image description"
               width={600}
               height={600}

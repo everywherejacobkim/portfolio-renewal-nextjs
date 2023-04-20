@@ -22,7 +22,12 @@ module.exports = {
         "primary-300": "#1d3b67",
         "primary-400": "#002962",
         "primary-500": "#13293d",
-    },
+      },
+      fontFamily: {
+        "poppins": ["Poppins", "sans-serif"],
+        "kristi": ["Kristi", "sans-serif"],
+        "bangers": ["Bangers", "sans-serif"],
+      },
     },
   },
   plugins: [],
