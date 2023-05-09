@@ -25,7 +25,7 @@ const Jumbotron = ({
     btnLabel?: string;
 }) => {
   return (
-    <div className={classNames("w-full p-32", bgColor || "bg-transparent")}>
+    <div className={classNames("w-full px-32 pb-2 md:mt-[-7%]", bgColor || "bg-transparent")} id="jumbotron">
       {imagePosition === "left" && image && (
         <div className="flex gap-28 items-center">
           <div>

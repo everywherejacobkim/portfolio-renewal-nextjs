@@ -24,7 +24,7 @@ const ContentBlock = ({
       </div>
       <button
         className={classNames(
-          "px-12 py-2.5 mt-8 rounded-full shadow-md",
+          "px-12 py-2.5 mt-8 rounded-full shadow-md md:text-lg md:font-bold",
           btnColor || "bg-black",
           btnTextColor || "text-white"
         )}
