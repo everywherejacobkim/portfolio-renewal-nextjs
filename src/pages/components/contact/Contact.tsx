@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
       <div className='speech-bubble'>
         <p className='bubble-text'>Drop Me A Line !</p>
       </div>
-      <div className='form-wrapper'>
+      <div className='form-wrapper gap-8 md:gap-16'>
         <div className='contact-img'>
           <StyledBadge
             overlap="circular"

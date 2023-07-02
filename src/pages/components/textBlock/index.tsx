@@ -5,8 +5,8 @@ const TextBlock = ({ text }: {
     text: string;
 }) => {
         return (
-        <div className="w-2/5 md:translate-y-44 md:translate-x-96">
-            <p className="text-lg text-white">
+        <div className="px-8 md:px-0 md:mb-[-7%] md:w-8/12">
+            <p className="text-xl font-poppins font-semibold mt-20 md:text-3xl text-white">
                 {text}
             </p>
         </div>
