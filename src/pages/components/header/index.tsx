@@ -55,7 +55,7 @@ const Header: React.FC = () => {
           </li>
           <li>
             <Link
-              href="/contact"
+              href="#contact"
               className="px-2 py-1 block hover:text-gray-500"
             >
               Contact Me
