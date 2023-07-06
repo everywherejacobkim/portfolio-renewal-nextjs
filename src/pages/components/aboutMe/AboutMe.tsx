@@ -1,7 +1,7 @@
 import { FaUserGraduate, FaAward, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { GoProject } from "react-icons/go";
 import { BsFillSendFill } from "react-icons/bs";
-import PhotoGallery from "../photoGallery/PhotoGallery";
+import PhotoGallery from "../gallery/PhotoGallery";
 
 const AboutMe = () => {
 
