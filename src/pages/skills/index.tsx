@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Header from '../components/header';
+import Footer from '../components/footer';
+import Skills from '../components/skills/Skills';
 
-type Props = {}
-
-const index = (props: Props) => {
-  return (
-    <div>index</div>
-  )
+const index = () => {
+  return <div>
+    <Header />
+    <Skills />
+    <Footer />
+  </div>
 }
 
 export default index

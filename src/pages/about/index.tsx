@@ -3,9 +3,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import AboutMe from '../components/aboutMe/AboutMe';
 
-type Props = {}
-
-const index = (props: Props) => {
+const index = () => {
   return <div>
     <Header />
     <AboutMe />
