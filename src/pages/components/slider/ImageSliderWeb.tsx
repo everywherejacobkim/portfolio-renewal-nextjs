@@ -33,7 +33,7 @@ const ImageSliderWeb = ({ images, title, description }: { images: StaticImageDat
                                 </div>
                         </div>
                         ))}
-                        </div>
+                                </div>
                 </div>
             </div>
             </div>

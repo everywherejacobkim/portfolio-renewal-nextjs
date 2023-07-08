@@ -6,16 +6,7 @@ import JumbotronImage from '../../public/assets/images/j2.jpg';
 import ProjectSlider from './components/slider/ProjectSlider';
 import Contact from './components/contact/Contact';
 import TextBlock from './components/textBlock';
-import project1 from '../../public/assets/images/projects/handyChef.png';
-import project2 from '../../public/assets/images/projects/pomodee.png';
-import project3 from '../../public/assets/images/projects/myDailynote.png';
 import { FaTools } from 'react-icons/fa';
-
-const projectImages = [
-  project1,
-  project2,
-  project3,
-]
 
 export default function Home() {
   return <>
@@ -30,7 +21,9 @@ export default function Home() {
         </div>
         <ProjectSlider />
       </div>
-      <TextBlock text="Looking for a partner to bring your ideas to life? I'm HERE TO HELP! Contact me Using the form below and let's create something amazing together."/>
+      <div className="flex justify-center mt-16 mb-16 md:mt-20 md:mb-1">
+        <TextBlock text="Looking for a partner to bring your ideas to life? I'm HERE TO HELP! Contact me Using the form below and let's create something amazing together." textColor='text-gray-100'/>
+      </div>
       <Contact />
     </main>
     <Footer />

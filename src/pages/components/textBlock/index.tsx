@@ -1,13 +1,24 @@
 import React from 'react';
+import classNames from "classnames";
 import { FaRegLightbulb } from 'react-icons/fa';
 
-const TextBlock = ({ text }: {
+const TextBlock = ({ text, textColor, className }: {
     text: string;
+    textColor?: string;
+    className?: string;
 }) => {
         return (
-            <div className="flex items-center gap-5 justify-center px-8 mb-12 md:ml-8 md:px-0 md:mb-[-5%] md:w-8/12">
-                <FaRegLightbulb className="invisible md:visible text-6xl text-white -rotate-12"/>
-                <p className="text-xl font-poppins font-semibold mt-20 md:text-3xl tracking-wide text-white">
+            <div className="flex gap-5 justify-center px-4 md:px-8 md:pt-2 md:ml-8 md:w-8/12">
+                <FaRegLightbulb className={classNames(
+                    "invisible md:visible text-6xl -rotate-12",
+                    textColor || "text-white",
+                )}
+             />
+                <p className={classNames(
+                    "text-xl font-poppins font-semibold mt-4 mr-4 md:text-3xl tracking-wide",
+                    textColor || "text-white",
+                    className,
+                )}>
                     {text}
                 </p>
             </div>

@@ -41,7 +41,7 @@ const PhotoGallery = () => {
                   width={600}
                   height={600}
                   alt="Selected Photo"
-                  className="object-contain w-full h-full cursor-pointer"
+                  className="object-contain w-full h-full cursor-pointer rounded-xl"
                   onClick={closePhoto}
                 />
               </div>
