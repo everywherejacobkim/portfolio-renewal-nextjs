@@ -6,6 +6,7 @@ interface Project {
     type: string;
     title: string;
     description: string;
+    stack: string;
     image: string;
 }
   
@@ -26,7 +27,8 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ projects }) => {
                 >
                     <Image src={project.image} width={500} height={600} alt={project.title} className="object-cover" />
                     <div className="p-4">
-                        <h3 className="text-xl font-medium mb-2">{project.title}</h3>
+                        <h3 className="text-xl font-medium mb-0.5">{project.title}</h3>
+                        <p className="text-sm font-medium mb-2 text-primary-200">{project.stack}</p>
                         <p className="text-gray-700">{project.description}</p>
                     </div>
                     {project.type === 'Team' && (
