@@ -4,7 +4,7 @@ import ImageSliderWeb from './ImageSliderWeb';
 import ImageSliderWeb2 from './ImageSliderWeb2';
 import project1 from '../../../../public/assets/images/projects/handyChef.png';
 import project2 from '../../../../public/assets/images/projects/pomodee.png';
-import project3 from '../../../../public/assets/images/projects/myDailynote.png';
+import project3 from '../../../../public/assets/images/projects/myDailyNote.png';
 
 const projectImages = [
     project1,
