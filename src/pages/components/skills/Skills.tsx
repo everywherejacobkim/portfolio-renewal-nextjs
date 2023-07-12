@@ -25,7 +25,7 @@ const Skills = () => {
 
   const [isFlipped, setIsFlipped] = useState(Array(skillCategories.length).fill(false));
 
-  const toggleFlip = (index) => {
+  const toggleFlip = (index: number) => {
     const flippedState = [...isFlipped];
     flippedState[index] = !flippedState[index];
     setIsFlipped(flippedState);
