@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaUserGraduate, FaAward, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { GoProject } from "react-icons/go";
 import { BsFillSendFill } from "react-icons/bs";
