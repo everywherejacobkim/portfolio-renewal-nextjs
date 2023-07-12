@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import ProjectsGallery from '../components/gallery/ProjectGallery';
+import ProjectsGallery from '../components/gallery/ProjectsGallery';
 
 const index = () => {
 

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import ImageSliderMobile from './ImageSliderMobile';
-import ImageSliderWeb from './ImageSliderWeb';
 import ImageSliderWeb2 from './ImageSliderWeb2';
 import project1 from '../../../../public/assets/images/projects/handyChef.png';
 import project2 from '../../../../public/assets/images/projects/pomodee.png';

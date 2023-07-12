@@ -32,9 +32,7 @@ const ImageSliderWeb2 = ({ images }: { images: StaticImageData[] }) => {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
-                      
-                {images.map((image, index) => (
- 
+        {images.map((image, index) => (
           <SwiperSlide key={index}>
             <Image
               src={image}
@@ -44,7 +42,6 @@ const ImageSliderWeb2 = ({ images }: { images: StaticImageData[] }) => {
               className="rounded-xl"
             />
           </SwiperSlide>
-                   
         ))}
         
         <div className="">
