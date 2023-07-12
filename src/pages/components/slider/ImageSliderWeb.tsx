@@ -18,7 +18,7 @@ const ImageSliderWeb = ({ images, title, description }: { images: StaticImageDat
                         </div>
                     </div>
                     <div className="flex [&:hover>div]:w-24 [&>div:hover]:w-[48rem]">
-                        {images.map((image, index) => (
+                        {images && images.map((image, index) => (
                             <div className="group relative h-96 w-96 cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200 rounded-r-lg" key={index} >
                                 <Image className="h-full object-cover transition-all" src={image} alt="Project Image" />
                                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-primary-300/70">

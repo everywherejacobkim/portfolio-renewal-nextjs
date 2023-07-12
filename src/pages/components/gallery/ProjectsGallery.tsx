@@ -18,7 +18,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ projects }) => {
     return (
         <div className="flex flex-col justify-center">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-4 md:p-16">
-            {projects.map((project) => (
+            {projects && projects.map((project) => (
                 <motion.div
                     key={project.id}
                     className="bg-white shadow-lg rounded-lg overflow-hidden relative pb-4 w-auto"

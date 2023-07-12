@@ -15,7 +15,7 @@ const ImageSliderMobile = ({ images }: { images: StaticImageData[] }) => {
 
   return (
     <div className="relative mx-auto">
-      <Image src={images[currentImageIndex]} alt="Slider" className="h-128 w-full object-cover rounded-b-xl" />
+      <Image src={images && images[currentImageIndex]} alt="Slider" className="h-128 w-full object-cover rounded-b-xl" />
 
       <div className="absolute top-1/2 left-0 flex justify-between w-full">
         <button
