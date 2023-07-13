@@ -1,6 +1,6 @@
 import Header from './components/header';
 import Footer from './components/footer';
-import MainFigure from './components/mainFigure';
+import MainFigure from './components/mainFigure/MainFigure';
 import Jumbotron from './components/jumbotron/jumbotron';
 import JumbotronImage from '../../public/assets/images/j2.jpg';
 import ProjectSlider from './components/slider/ProjectSlider';

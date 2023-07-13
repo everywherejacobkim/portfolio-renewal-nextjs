@@ -13,6 +13,7 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'space-pattern': "url('/assets/images/texture.png')",
         'aboutMe-wall': "url('/assets/images/about-me.jpg')",
+        'airplane-bg': "url('/assets/images/airplaneBg.jpg')",
         
       },
       colors: {
