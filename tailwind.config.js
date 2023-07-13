@@ -31,6 +31,7 @@ module.exports = {
         "poppins": ["Poppins", "sans-serif"],
         "kristi": ["Kristi", "sans-serif"],
         "bangers": ["Bangers", "sans-serif"],
+        "rubik": ["Bungee", "sans-serif"],
       },
       screens: {
         sm: "640px",

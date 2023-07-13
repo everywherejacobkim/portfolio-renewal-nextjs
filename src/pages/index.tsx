@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Header from './components/header';
 import Footer from './components/footer';
 import MainFigure from './components/mainFigure/MainFigure';
@@ -7,12 +8,15 @@ import ProjectSlider from './components/slider/ProjectSlider';
 import Contact from './components/contact/Contact';
 import TextBlock from './components/textBlock';
 import { FaTools } from 'react-icons/fa';
+import AirplaneFigure from './components/mainFigure/AirplaneFigure';
 
 export default function Home() {
   return <>
     <Header />
     <main className="flex flex-col items-center justify-between pt-4 bg-space-pattern bg-primary-300">
       <MainFigure />
+      <Image src="/assets/images/airplane.png" width={600} height={600} alt="airplane" className='-mt-40 md:-mt-48' />
+      <AirplaneFigure />
       <Jumbotron title="YOU CAN’T GO BACK AND CHANGE THE BEGINNING BUT, YOU CAN START WHERE YOU ARE AND CHANGE THE ENDING" description="- C.S. Lewis" image={JumbotronImage} imagePosition="right" fontColor="text-red-100" btnLabel='About Me' btnColor="bg-blue-300" btnTextColor='text-blue-900' />
       <div className="mt-24 md:mt-52 mb-8"> 
         <div className="flex justify-center items-center gap-2 md:gap-4 md:mb-6">

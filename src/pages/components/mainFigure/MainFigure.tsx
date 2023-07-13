@@ -13,7 +13,7 @@ type Props = {}
 const MainFigure = (props: Props) => {
   return <>
         <Resume />
-        <div className='flex mt-2 justify-center drop-shadow-2xl rounded-b-full bg-gradient-to-b from-transparent to-primary-50'>
+        <div className='flex mt-2 md:-mb-20 justify-center drop-shadow-2xl rounded-b-full bg-gradient-to-b from-transparent to-primary-50'>
             <Image
               src={mainImage}
               alt="me"
@@ -44,10 +44,10 @@ const MainFigure = (props: Props) => {
         </div>
         <div className='text-white mt-[-2rem] md:mt-[0rem] md:ml-20'>
             <ImAirplane className='airplane' size="4rem" style={{
-                transform: "rotate(-45deg) translate(32rem, -21rem)",
+                transform: "rotate(-15deg) translate(18rem, -35.4rem)",
             }}/>
             <BsCloudFog2  className='airplane text-3xl' style={{
-                transform: "translate(11.8rem, -40.7rem)",
+                transform: "translate(11.9rem, -40.7rem)",
             }}/>
             <FaCameraRetro className='hidden md:block camera' size="3rem" style={{
                 transform: "rotate(35deg) translate(-17rem, -47rem)",
