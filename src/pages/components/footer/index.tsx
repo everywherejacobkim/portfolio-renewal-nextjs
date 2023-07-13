@@ -5,14 +5,14 @@ import { AiOutlineCopyrightCircle } from "react-icons/ai";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-100 md:px-16 pt-12 pb-6">
+    <footer className="bg-primary-300 bg-space-pattern md:bg-none md:bg-gray-100 md:px-16 pt-12 pb-6">
       <div className="flex-cols">
-        <div className="flex justify-center gap-4 mb-4 text-2xl text-primary-200">
+        <div className="flex justify-center gap-4 mb-4 text-2xl text-primary-20 md:text-primary-200">
             <a href="https://www.linkedin.com/in/everywherejacobkim" target="_blank" rel="noreferrer"><BsLinkedin /></a>
             <a href="https://github.com/everywherejacobkim" target="_blank" rel="noreferrer"><BsGithub /></a>
             <a href="https://www.instagram.com/everywhere_jacob" target="_blank" rel="noreferrer"><ImInstagram /></a>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center text-gray-100 md:text-black">
           <AiOutlineCopyrightCircle />
           <p>2023 Jacob Namhyung Kim All Right Reserved</p>
         </div>

@@ -16,6 +16,7 @@ module.exports = {
         
       },
       colors: {
+        "primary-20": "#dbe9ee",
         "primary-30": "#ceefff",
         "primary-40": "#2196f3",
         "primary-50": "#95bcffd8",
@@ -29,6 +30,11 @@ module.exports = {
         "poppins": ["Poppins", "sans-serif"],
         "kristi": ["Kristi", "sans-serif"],
         "bangers": ["Bangers", "sans-serif"],
+      },
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1480px",
       },
     },
   },

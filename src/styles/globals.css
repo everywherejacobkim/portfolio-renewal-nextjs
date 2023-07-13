@@ -113,7 +113,7 @@
       align-items: center;
   }
   #contact .speech-bubble {
-      transform: rotate(-4deg) rotateY(15deg) translateX(3em) translateY(-1.7em);
+      transform: rotate(-4deg) rotateY(15deg) translateX(1em) translateY(-2em);
   }
   #contact form {
       align-items: center;
