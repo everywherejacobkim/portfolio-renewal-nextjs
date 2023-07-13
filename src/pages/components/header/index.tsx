@@ -17,11 +17,11 @@ const Header: React.FC = () => {
         <Link href="/" className="w-[305px] shadow-md py-2 px-6 rounded-sm bg-white ml-8 mr-2">
           <TypeAnimation
             sequence={typedText}
-            className="text-primary-200 text-2xl font-bold"
+            className="text-primary-200 text-xl md:text-2xl font-bold"
             wrapper="h2"
             repeat={Infinity}
           />
-          <p className="text-gray-900 text-2xl font-bold">Jacob Namhyung Kim</p>
+          <p className="text-gray-900 text-xl md:text-2xl font-bold">Jacob Namhyung Kim</p>
         </Link>
         <button className="block mx-6 md:hidden" onClick={toggleMenu}>
           {isExpanded ? (
