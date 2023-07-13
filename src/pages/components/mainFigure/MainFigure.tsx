@@ -43,17 +43,17 @@ const MainFigure = (props: Props) => {
             }}/>
         </div>
         <div className='text-white mt-[-2rem] md:mt-[0rem] md:ml-20'>
-            <ImAirplane className='airplane' size="3rem" style={{
-                transform: "rotate(-45deg) translate(33rem, -19rem)",
+            <ImAirplane className='airplane' size="4rem" style={{
+                transform: "rotate(-45deg) translate(32rem, -21rem)",
             }}/>
-            <BsCloudFog2  className='hidden md:block airplane' size="2.5rem" style={{
-                transform: "translate(13.7rem, -39.9rem)",
+            <BsCloudFog2  className='airplane text-3xl' style={{
+                transform: "translate(11.8rem, -40.7rem)",
             }}/>
-            <FaCameraRetro className='hidden md:block camera' size="2rem" style={{
-                transform: "rotate(35deg) translate(-15rem, -45rem)",
+            <FaCameraRetro className='hidden md:block camera' size="3rem" style={{
+                transform: "rotate(35deg) translate(-17rem, -47rem)",
             }}/>
             <p className="hidden md:block font-kristi text-5xl font-bold" style={{
-                transform: "rotate(-45deg) translate(37rem, -22rem)",
+                transform: "rotate(-45deg) translate(37rem, -23rem)",
             }}>develoPer Kim</p>
       </div>
       <div className='invisible md:visible flex flex-col items-center gap-12 absolute right-16 bottom-12'>
