@@ -8,6 +8,7 @@ interface Project {
     description: string;
     stack: string;
     image: string;
+    link: string;
 }
   
 interface ProjectsGalleryProps {
@@ -18,7 +19,12 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ projects }) => {
     return (
         <div className="flex flex-col justify-center">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-4 md:p-16">
-            {projects && projects.map((project) => (
+                {projects && projects.map((project) => (
+                <motion.a
+                    key={project.id}
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer">
                 <motion.div
                     key={project.id}
                     className="bg-white shadow-lg rounded-lg overflow-hidden relative pb-4 w-auto"
@@ -39,6 +45,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ projects }) => {
                     )}
                 
                 </motion.div>
+                </motion.a>
             ))}
             </div>
         </div>
