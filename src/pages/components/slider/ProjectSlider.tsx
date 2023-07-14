@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import ImageSliderMobile from './ImageSliderMobile';
-import ImageSliderWeb2 from './ImageSliderWeb2';
+import ImageSliderWeb from './ImageSliderWeb';
 import project1 from '../../../../public/assets/images/projects/handyChef.png';
 import project2 from '../../../../public/assets/images/projects/pomodee.png';
-import project3 from '../../../../public/assets/images/projects/myDailyNote.png';
+import project3 from '../../../../public/assets/images/projects/bcspcaRenewal.png';
+import project4 from '../../../../public/assets/images/projects/myDailyNote.png';
+import project5 from '../../../../public/assets/images/projects/portfolioPage.png';
 
 const projectImages = [
-    project1,
-    project2,
-  project3,
   project1,
   project2,
-  project3,
+  project3, 
+  project4,
+  project5,
   ]
 
 const ProjectSlider = () => {
@@ -52,7 +53,7 @@ const ProjectSlider = () => {
 
   return (
     <div className="flex flex-col gap-10">
-      <ImageSliderWeb2 images={projectImages} />
+      <ImageSliderWeb images={projectImages} />
     </div>
   );
 };

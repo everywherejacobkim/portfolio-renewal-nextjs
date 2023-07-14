@@ -24,6 +24,14 @@ const index = () => {
     },
     {
       id: 3,
+      type: 'Team',
+      title: 'BCSPCA Website Renewal',
+      description: 'Presenting a sleek and modern web app built with Next.js, TypeScript, and Tailwind CSS, designed to showcase my self-introduction, skills, and an impressive portfolio of projects.',
+      stack: "Next.js | TypeScript | Tailwind | MapBox | Stripe",
+      image: '/assets/images/projects/bcspcaRenewal.png',
+    },
+    {
+      id: 4,
       type: 'Solo',
       title: 'My Daily Note',
       description: 'My Daily Note offers a daily to-do section, memo recording, and motivational quotes, with a user-friendly interface to help users track their activities, capture notes, and stay motivated.',
@@ -31,13 +39,14 @@ const index = () => {
       image: '/assets/images/projects/myDailyNote.png',
     },
     {
-      id: 3,
+      id: 5,
       type: 'Solo',
       title: 'My Portfolio',
       description: 'Presenting a sleek and modern web app built with Next.js, TypeScript, and Tailwind CSS, designed to showcase my self-introduction, skills, and an impressive portfolio of projects.',
       stack: "Next.js | TypeScript | Tailwind",
-      image: '/assets/images/projects/portfolioSite.png',
+      image: '/assets/images/projects/portfolioPage.png',
     },
+
   ];
 
   return <div className='bg-gray-100'>

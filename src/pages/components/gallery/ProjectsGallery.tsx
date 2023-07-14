@@ -25,7 +25,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ projects }) => {
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                 >
-                    <Image src={project.image} width={500} height={600} alt={project.title} className="object-cover" />
+                    <Image src={project.image} width={915} height={849} alt={project.title} className="object-cover" />
                     <div className="p-4">
                         <h3 className="text-xl font-medium mb-0.5">{project.title}</h3>
                         <p className="text-sm font-medium mb-2 text-primary-200">{project.stack}</p>

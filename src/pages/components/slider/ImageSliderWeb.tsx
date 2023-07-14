@@ -1,43 +1,59 @@
+import React from "react";
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-const ImageSliderWeb = ({ images, title, description }: { images: StaticImageData[]; title: string; description:string }) => {
+const ImageSliderWeb2 = ({ images }: { images: StaticImageData[] }) => {
     return (
-            <div className="flex items-center justify-center">
-            <div className="">
-                <div className="flex">
-                    <div className="group relative h-96 w-32 cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200 rounded-l-lg">
-                        <div className="absolute inset-0 bg-gradient-to-b from-indigo-300/30 to-transparent">
-                            <div className="absolute inset-x-5 bottom-6">
-                                <div className="flex gap-3 text-white">
-                                <div>
-                                        <p className="font-semibold text-xl text-gray-100">{title}</p>
-                                    <p className="text-gray-300">{description}</p>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex [&:hover>div]:w-24 [&>div:hover]:w-[48rem]">
-                        {images && images.map((image, index) => (
-                            <div className="group relative h-96 w-96 cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200 rounded-r-lg" key={index} >
-                                <Image className="h-full object-cover transition-all" src={image} alt="Project Image" />
-                                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-primary-300/70">
-                                    <div className="absolute inset-x-3 bottom-4">
-                                        <div className="flex gap-3 text-white">
-                                        <div className="invisible group-hover:visible">
-                                            <p className="font-sembold text-xl text-gray-100">Project Name</p>
-                                            <p className="text-gray-300">description</p>
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                        ))}
-                                </div>
-                </div>
+        <Link href="/projects">
+        <div className="w-3/4 mx-auto">
+      <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2.5,
+        }}
+        pagination={{ el: '.swiper-pagination', clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
+        modules={[EffectCoverflow, Pagination, Navigation]}
+        className="swiper_container"
+      >
+        {images && images.map((image, index) => (
+          <SwiperSlide key={index}>
+            <Image
+              src={image}
+              width={750}
+              height={500}
+              alt="Project Image"
+              className="rounded-xl"
+            />
+          </SwiperSlide>
+        ))}
+        
+        <div className="">
+          <div className="swiper-button-prev slider-arrow bg-primary-30 p-8 rounded-xl border-4 border-blue-500"></div>
+          <div className="swiper-button-next slider-arrow  bg-primary-30 p-8 rounded-xl border-4 border-blue-500"></div>
+          <div className="swiper-pagination"></div>
+        </div>
+                </Swiper>
             </div>
-            </div>
+            </Link>
+          
   );
 };
 
-export default ImageSliderWeb;
+export default ImageSliderWeb2;
