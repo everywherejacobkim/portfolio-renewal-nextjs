@@ -12,26 +12,26 @@ const ImageSliderWeb2 = ({ images }: { images: StaticImageData[] }) => {
     return (
         <Link href="/projects">
         <div className="w-3/4 mx-auto">
-      <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
-        centeredSlides={true}
-        loop={true}
-        slidesPerView={'auto'}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2.5,
-        }}
-        pagination={{ el: '.swiper-pagination', clickable: true }}
-        navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        }}
-        modules={[EffectCoverflow, Pagination, Navigation]}
-        className="swiper_container"
-      >
+        <Swiper
+          effect={'coverflow'}
+          grabCursor={true}
+          centeredSlides={true}
+          loop={true}
+          slidesPerView={'auto'}
+          coverflowEffect={{
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2.5,
+          }}
+          pagination={{ el: '.swiper-pagination', clickable: true }}
+          navigation={{
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          }}
+          modules={[EffectCoverflow, Pagination, Navigation]}
+          className="swiper_container"
+        >
         {images && images.map((image, index) => (
           <SwiperSlide key={index}>
             <Image
@@ -49,10 +49,10 @@ const ImageSliderWeb2 = ({ images }: { images: StaticImageData[] }) => {
           <div className="swiper-button-next slider-arrow  bg-primary-30 p-8 rounded-xl border-4 border-blue-500"></div>
           <div className="swiper-pagination"></div>
         </div>
-                </Swiper>
-            </div>
-            </Link>
-          
+        </Swiper>
+    </div>
+    </Link>
+  
   );
 };
 
