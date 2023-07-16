@@ -2,11 +2,16 @@
 
 Welcome to my modern portfolio web app, built with Next.js, TypeScript, and Tailwind CSS. This project serves as a platform to showcase my self-introduction, skills, contact information, and an impressive portfolio of projects.
 
+## Live Demo
+
+[Check out the live demo of my portfolio website](https://devjacobkim.co)
+
 ## Stack
 
 - Next.js
 - TypeScript
 - Tailwind CSS
+- Framer Motion
 
 ## Features
 
