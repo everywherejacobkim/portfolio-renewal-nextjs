@@ -59,7 +59,7 @@ const index = () => {
 
   ];
 
-  return <div className='bg-gray-100'>
+  return <div className='bg-white'>
     <Header />
     <ProjectsGallery projects={projects} />
     <Footer />

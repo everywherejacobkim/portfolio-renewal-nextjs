@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="relative bg-gray-100 w-full pb-8">
+    <section id="contact" className="relative bg-white w-full pb-8">
       <div className='speech-bubble'>
         <p className='bubble-text'>Drop Me A Line !</p>
       </div>

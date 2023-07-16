@@ -12,9 +12,9 @@ const Header: React.FC = () => {
   const typedText = ["Front End Developer",1000, "React Developer",1500, "TypeScript Developer",1000, "UI Developer",1000];
 
   return (
-    <header className="bg-gray-100 p-2">
+    <header className="bg-white p-2">
       <nav className="flex items-center justify-between max-w-7xl mx-auto pl-4 py-3">
-        <Link href="/" className="w-[305px] shadow-md py-2 pl-6 md:px-6 rounded-sm bg-white ml-2 md:ml-8 mr-2">
+        <Link href="/" className="w-[305px] shadow-lg py-2 pl-6 md:px-6 rounded-sm bg-white ml-2 md:ml-8 mr-2">
           <TypeAnimation
             sequence={typedText}
             className="text-primary-200 text-xl md:text-2xl font-bold"

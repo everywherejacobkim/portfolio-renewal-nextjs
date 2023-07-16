@@ -5,7 +5,7 @@ import { AiOutlineCopyrightCircle } from "react-icons/ai";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-primary-300 bg-space-pattern md:bg-none md:bg-gray-100 md:px-16 pt-12 pb-6">
+    <footer className="bg-primary-300 bg-space-pattern md:bg-none md:bg-white md:px-16 pt-12 pb-6">
       <div className="flex-cols">
         <div className="flex justify-center gap-4 mb-4 text-2xl text-primary-20 md:text-primary-200">
             <a href="https://www.linkedin.com/in/everywherejacobkim" target="_blank" rel="noreferrer"><BsLinkedin /></a>
