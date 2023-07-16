@@ -11,4 +11,4 @@ const index = () => {
   </div>
 }
 
-export default index
+export default index;

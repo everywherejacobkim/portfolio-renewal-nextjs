@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import PageTransition from './components/transition';
 import Header from './components/header';
 import Footer from './components/footer';
 import MainFigure from './components/mainFigure/MainFigure';
@@ -31,5 +32,5 @@ export default function Home() {
       <Contact />
     </main>
     <Footer />
-  </>
+    </>
 }

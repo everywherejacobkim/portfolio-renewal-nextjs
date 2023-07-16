@@ -103,9 +103,6 @@
   transform: rotate(45deg) skewX(75deg);
 }
 
-
-
-
 /*--------------------- Media Queries(Mobile) -------------------------*/
 @media screen and (max-width: 640px) {
   #contact .form-wrapper {

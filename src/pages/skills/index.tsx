@@ -4,7 +4,7 @@ import Footer from '../components/footer';
 import Skills from '../components/skills/Skills';
 
 const index = () => {
-  return <div>
+  return <div className="bg-gray-100">
     <Header />
     <Skills />
     <Footer />
