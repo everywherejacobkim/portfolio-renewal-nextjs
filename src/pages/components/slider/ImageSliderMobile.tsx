@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
-import { BsAirplaneFill } from 'react-icons/bs';
+import { BsAirplaneFill } from "react-icons/bs";
 
 const ImageSliderMobile = ({ images }: { images: StaticImageData[] }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -10,12 +11,19 @@ const ImageSliderMobile = ({ images }: { images: StaticImageData[] }) => {
   };
 
   const previousImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+    setCurrentImageIndex(
+      (prevIndex) => (prevIndex - 1 + images.length) % images.length
+    );
   };
 
   return (
+    <Link href="/projects">
     <div className="relative mx-auto">
-      <Image src={images && images[currentImageIndex]} alt="Slider" className="h-128 w-full object-cover rounded-b-xl" />
+      <Image
+        src={images && images[currentImageIndex]}
+        alt="Slider"
+        className="h-128 w-full object-cover rounded-b-xl"
+      />
 
       <div className="absolute top-1/2 left-0 flex justify-between w-full">
         <button
@@ -32,6 +40,7 @@ const ImageSliderMobile = ({ images }: { images: StaticImageData[] }) => {
         </button>
       </div>
     </div>
+    </Link>
   );
 };
 

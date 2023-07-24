@@ -1,19 +1,21 @@
-import React, { useEffect, useState } from 'react';
-import ImageSliderMobile from './ImageSliderMobile';
-import ImageSliderWeb from './ImageSliderWeb';
-import project1 from '../../../../public/assets/images/projects/handyChef.png';
-import project2 from '../../../../public/assets/images/projects/pomodee.png';
-import project3 from '../../../../public/assets/images/projects/bcspcaRenewal.png';
-import project4 from '../../../../public/assets/images/projects/myDailyNote.png';
-import project5 from '../../../../public/assets/images/projects/portfolioPage.png';
+import React, { useEffect, useState } from "react";
+import ImageSliderMobile from "./ImageSliderMobile";
+import ImageSliderWeb from "./ImageSliderWeb";
+import project1 from "../../../../public/assets/images/projects/handyChef.png";
+import project2 from "../../../../public/assets/images/projects/pomodee.png";
+import project3 from "../../../../public/assets/images/projects/bcspcaRenewal.png";
+import project4 from "../../../../public/assets/images/projects/myDailyNote.png";
+import project5 from "../../../../public/assets/images/projects/portfolioPage.png";
+import project6 from "../../../../public/assets/images/projects/eCommerce.png";
 
 const projectImages = [
   project1,
   project2,
-  project3, 
+  project3,
   project4,
   project5,
-  ]
+  project6,
+];
 
 const ProjectSlider = () => {
   const [isMobileView, setIsMobileView] = useState<boolean>(false);
@@ -25,10 +27,10 @@ const ProjectSlider = () => {
 
     setIsMobileView(window.innerWidth <= 768);
 
-    window.addEventListener('resize', handleWindowResize);
+    window.addEventListener("resize", handleWindowResize);
 
     return () => {
-      window.removeEventListener('resize', handleWindowResize);
+      window.removeEventListener("resize", handleWindowResize);
     };
   }, []);
 
