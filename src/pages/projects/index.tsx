@@ -32,7 +32,7 @@ const index = () => {
       type: "Team",
       title: "BCSPCA Website Renewal",
       description:
-        "Presenting a sleek and modern web app built with Next.js, TypeScript, and Tailwind CSS, designed to showcase my self-introduction, skills, and an impressive portfolio of projects.",
+        "This project involves enhancing the BC SPCA website by redesigning its user interface and improving functionality to provide a visually appealing, intuitive, and seamless user experience.",
       stack: "Next.js | TypeScript | Tailwind | MapBox | Stripe",
       image: "/assets/images/projects/bcspcaRenewal.png",
       link: "https://bc-spca-renewal.netlify.app",
