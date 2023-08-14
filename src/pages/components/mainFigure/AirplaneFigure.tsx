@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const AirplaneFigure = () => {
@@ -9,7 +10,7 @@ const AirplaneFigure = () => {
   });
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
-  const textX = useTransform(scrollYProgress, [0, 1], ["-50%", "50%"]);
+  const textX = useTransform(scrollYProgress, [0, 1], ["-70%", "50%"]);
 
   return (
     <div
@@ -18,21 +19,32 @@ const AirplaneFigure = () => {
     >
       <motion.h1
         style={{ y: textY, x: textX }}
-        className="font-bold text-gray-50 text-5xl md:text-8xl lg:text-9xl font-rubik relative z-10 mt-40 md:mt-30"
+        className="flex font-bold text-gray-50 text-5xl md:text-8xl lg:text-9xl font-rubik relative z-10 mt-30"
       >
-        DEVJACOBKIM.CO
+        <div className="">DEVJACOBKIM.CO</div>
+        <Image
+          src="/assets/images/airplane.png"
+          width={600}
+          height={600}
+          alt="airplane"
+          className="-mt-40 md:-mt-52 -mb-48 md:-mb-44 z-50 rotate-90"
+        />
       </motion.h1>
 
       <motion.div
         className="absolute inset-0 z-0 md:rounded-xl"
-        style={{
-          backgroundImage: `url(/assets/images/sky-bg.jpg)`,
-          backgroundPosition: "bottom",
-          backgroundSize: "cover",
-          filter: "grayscale(25%)",
-          y: backgroundY,
-        }}
-      />
+        style={{ y: backgroundY }}
+      >
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover grayscale-filter"
+        >
+          <source src="/assets/videos/sky-fly.mp4" type="video/mp4" />
+        </video>
+      </motion.div>
     </div>
   );
 };

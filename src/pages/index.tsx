@@ -21,13 +21,6 @@ export default function Home() {
       <Header />
       <main className="flex flex-col items-center justify-between pt-24 bg-space-pattern bg-primary-300 md:pt-8 lg:pt-16">
         <MainFigure />
-        <Image
-          src="/assets/images/airplane.png"
-          width={600}
-          height={600}
-          alt="airplane"
-          className="-mt-40 md:-mt-48 md:ml-[136px] -mb-48 md:-mb-44 z-50 lg:ml-[172px]"
-        />
         <AirplaneFigure />
         <Jumbotron
           title="YOU CAN’T GO BACK AND CHANGE THE BEGINNING BUT, YOU CAN START WHERE YOU ARE AND CHANGE THE ENDING"
