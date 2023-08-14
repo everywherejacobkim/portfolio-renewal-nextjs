@@ -13,6 +13,7 @@ const Jumbotron = ({
   btnColor,
   btnTextColor,
   btnLabel,
+  className,
 }: {
     title: string;
     description: string;
@@ -23,9 +24,10 @@ const Jumbotron = ({
     btnColor?: string;
     btnTextColor?: string;
     btnLabel?: string;
+    className?: string;
 }) => {
   return (
-    <div className={classNames("w-full px-8 md:px-32 pb-2 mt-24 md:mt-64", bgColor || "bg-transparent")} id="jumbotron">
+    <div className={classNames("w-full px-8 md:px-32 pb-2 mt-24 md:mt-64", bgColor || "bg-transparent", className)} id="jumbotron">
       {imagePosition === "left" && image && (
         <div className="flex flex-col md:flex-row gap-28 items-center">
           <div>
