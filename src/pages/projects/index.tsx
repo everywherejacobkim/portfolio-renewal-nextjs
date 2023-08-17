@@ -41,13 +41,13 @@ const index = () => {
     {
       id: 4,
       type: "Solo",
-      title: "My Portfolio",
+      title: "Modern E-Commerce Website",
       description:
-        "Presenting a sleek and modern web app built with Next.js, TypeScript, and Tailwind CSS, designed to showcase my self-introduction, skills, and an impressive portfolio of projects.",
-      stack: "Next.js | TypeScript | Tailwind",
-      image: "/assets/images/projects/portfolioPage.png",
-      link: "https://devjacobkim.co",
-      code: "https://github.com/everywherejacobkim/portfolio-renewal-nextjs",
+        "Explore modern e-commerce demo showcasing product pages, cart functionality, and secure payments. Discover trendy T-shirts shopping website, powered by Next.js, Sanity, and Stripe.",
+      stack: "Next.js | Sanity | Stripe",
+      image: "/assets/images/projects/eCommerce.png",
+      link: "https://eloquent-begonia-351848.netlify.app",
+      code: "https://github.com/everywherejacobkim/ecommerce-website-nextjs-sanity-stripe",
     },
     {
       id: 5,
@@ -63,13 +63,13 @@ const index = () => {
     {
       id: 6,
       type: "Solo",
-      title: "Modern E-Commerce Website",
+      title: "My Portfolio",
       description:
-        "Explore modern e-commerce demo showcasing product pages, cart functionality, and secure payments. Discover trendy T-shirts shopping website, powered by Next.js, Sanity, and Stripe.",
-      stack: "Next.js | Sanity | Stripe",
-      image: "/assets/images/projects/eCommerce.png",
-      link: "https://eloquent-begonia-351848.netlify.app",
-      code: "https://github.com/everywherejacobkim/ecommerce-website-nextjs-sanity-stripe",
+        "Presenting a sleek and modern web app built with Next.js, TypeScript, and Tailwind CSS, designed to showcase my self-introduction, skills, and an impressive portfolio of projects.",
+      stack: "Next.js | TypeScript | Tailwind",
+      image: "/assets/images/projects/portfolioPage.jpg",
+      link: "https://devjacobkim.co",
+      code: "https://github.com/everywherejacobkim/portfolio-renewal-nextjs",
     },
   ];
 

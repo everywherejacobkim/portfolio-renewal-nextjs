@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import MainFigure from "./components/mainFigure/MainFigure";
@@ -8,12 +7,9 @@ import JumbotronImage from "../../public/assets/images/j2.jpg";
 import ProjectSlider from "./components/slider/ProjectSlider";
 import Contact from "./components/contact/Contact";
 import TextBlock from "./components/textBlock";
-import { FaTools } from "react-icons/fa";
 import AirplaneFigure from "./components/mainFigure/AirplaneFigure";
-import {
-  BsFillArrowDownCircleFill,
-  BsFillArrowUpCircleFill,
-} from "react-icons/bs";
+import { FaTools } from "react-icons/fa";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 export default function Home() {
   return (
