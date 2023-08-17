@@ -46,7 +46,7 @@ const index = () => {
         "Explore modern e-commerce demo showcasing product pages, cart functionality, and secure payments. Discover trendy T-shirts shopping website, powered by Next.js, Sanity, and Stripe.",
       stack: "Next.js | Sanity | Stripe",
       image: "/assets/images/projects/eCommerce.png",
-      link: "urban-tee-scape.netlify.app",
+      link: "https://urban-tee-scape.netlify.app",
       code: "https://github.com/everywherejacobkim/ecommerce-website-nextjs-sanity-stripe",
     },
     {
