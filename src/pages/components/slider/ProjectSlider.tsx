@@ -5,7 +5,7 @@ import project1 from "../../../../public/assets/images/projects/handyChef.png";
 import project2 from "../../../../public/assets/images/projects/pomodee.png";
 import project3 from "../../../../public/assets/images/projects/bcspcaRenewal.png";
 import project4 from "../../../../public/assets/images/projects/myDailyNote.png";
-import project5 from "../../../../public/assets/images/projects/portfolioPage.png";
+import project5 from "../../../../public/assets/images/projects/portfolioPage.jpg";
 import project6 from "../../../../public/assets/images/projects/eCommerce.png";
 
 const projectImages = [

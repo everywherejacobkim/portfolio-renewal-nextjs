@@ -41,12 +41,12 @@ const index = () => {
     {
       id: 4,
       type: "Solo",
-      title: "Modern E-Commerce Website",
+      title: "Urban Teescape | E-commerce Web",
       description:
         "Explore modern e-commerce demo showcasing product pages, cart functionality, and secure payments. Discover trendy T-shirts shopping website, powered by Next.js, Sanity, and Stripe.",
       stack: "Next.js | Sanity | Stripe",
       image: "/assets/images/projects/eCommerce.png",
-      link: "https://e-commerce-website-demo.netlify.app",
+      link: "urban-tee-scape.netlify.app",
       code: "https://github.com/everywherejacobkim/ecommerce-website-nextjs-sanity-stripe",
     },
     {
