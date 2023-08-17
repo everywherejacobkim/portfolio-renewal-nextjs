@@ -46,7 +46,7 @@ const index = () => {
         "Explore modern e-commerce demo showcasing product pages, cart functionality, and secure payments. Discover trendy T-shirts shopping website, powered by Next.js, Sanity, and Stripe.",
       stack: "Next.js | Sanity | Stripe",
       image: "/assets/images/projects/eCommerce.png",
-      link: "https://eloquent-begonia-351848.netlify.app",
+      link: "https://e-commerce-website-demo.netlify.app",
       code: "https://github.com/everywherejacobkim/ecommerce-website-nextjs-sanity-stripe",
     },
     {
@@ -57,7 +57,7 @@ const index = () => {
         "My Daily Note offers a daily to-do section, memo recording, and motivational quotes, with a user-friendly interface to help users track their activities, capture notes, and stay motivated.",
       stack: "React | PWA",
       image: "/assets/images/projects/myDailyNote.png",
-      link: "https://eloquent-begonia-351848.netlify.app",
+      link: "https://my-daily-note.netlify.app",
       code: "https://github.com/everywherejacobkim/myDailyNote-web-app-react",
     },
     {
