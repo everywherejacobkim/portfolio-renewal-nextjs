@@ -4,14 +4,26 @@ import ImageSliderWeb from "./ImageSliderWeb";
 import project1 from "../../../../public/assets/images/projects/handyChef.png";
 import project2 from "../../../../public/assets/images/projects/pomodee.png";
 import project3 from "../../../../public/assets/images/projects/bcspcaRenewal.png";
-import project4 from "../../../../public/assets/images/projects/myDailyNote.png";
-import project5 from "../../../../public/assets/images/projects/portfolioPage.jpg";
-import project6 from "../../../../public/assets/images/projects/eCommerce.png";
+import project4 from "../../../../public/assets/images/projects/eCommerce.png";
+import project5 from "../../../../public/assets/images/projects/myDailyNote.png";
+import project6 from "../../../../public/assets/images/projects/binaryTree.png";
 
 const projectImages = [
   project1,
   project2,
   project3,
+  project4,
+  project5,
+  project6,
+];
+
+const teamProjectImages = [
+  project1,
+  project2,
+  project3,
+];
+
+const soloProjectImages = [
   project4,
   project5,
   project6,
@@ -39,15 +51,15 @@ const ProjectSlider = () => {
       <div className="flex flex-col md:flex-row gap-12">
         <div className="">
           <h1 className="text-2xl md:text-3xl text-center text-primary-200 font-bold bg-blue-100 rounded-t-xl py-1">
-            Project With Team
+            Projects With Team
           </h1>
-          <ImageSliderMobile images={projectImages} />
+          <ImageSliderMobile images={teamProjectImages} />
         </div>
         <div className="">
           <h1 className="text-2xl md:text-3xl text-center text-primary-200 font-bold bg-red-100 rounded-t-xl py-1">
-            Individual Project
+            Solo Projects
           </h1>
-          <ImageSliderMobile images={projectImages} />
+          <ImageSliderMobile images={soloProjectImages} />
         </div>
       </div>
     );

@@ -71,6 +71,17 @@ const index = () => {
       link: "https://devjacobkim.co",
       code: "https://github.com/everywherejacobkim/portfolio-renewal-nextjs",
     },
+    {
+      id: 7,
+      type: "Solo",
+      title: "Binary Tree Parser & Visualizer",
+      description:
+        "A TypeScript and React-based single-page application for parsing and visualizing binary tree data structures, with a user-friendly interface to help users understand the concept of binary trees.",
+      stack: "React.js | TypeScript | MobX",
+      image: "/assets/images/projects/binaryTree.png",
+      link: "https://binary-tree-parser.netlify.app",
+      code: "https://github.com/everywherejacobkim/parsing-tree-react-typescript",
+    },
   ];
 
   return (
