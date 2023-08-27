@@ -82,6 +82,17 @@ const index = () => {
       link: "https://binary-tree-parser.netlify.app",
       code: "https://github.com/everywherejacobkim/parsing-tree-react-typescript",
     },
+    {
+      id: 8,
+      type: "Solo",
+      title: "Hope Village Sample Website",
+      description:
+        "The Hope Village sample website offers a user-friendly and theme-based interface that enables customers to explore a variety of sesame oil products.",
+      stack: "React.js | Bootstrap | Tailwind",
+      image: "/assets/images/projects/hopeVillage.jpg",
+      link: "https://hope-village-sample.netlify.app",
+      code: "https://github.com/everywherejacobkim/hope-village-sample-website",
+    },
   ];
 
   return (
