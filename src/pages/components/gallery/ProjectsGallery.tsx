@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { RotatingSquare } from "react-loader-spinner";
 
 interface Project {
   id: number;
@@ -34,13 +35,25 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ projects }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image
-                  src={project.image}
-                  width={915}
-                  height={849}
-                  alt={project.title}
-                  className="object-cover"
-                />
+                {!project.image ? (
+                  <Image
+                    src={project.image}
+                    width={915}
+                    height={849}
+                    alt={project.title}
+                    className="object-cover"
+                  />
+                ) : (
+                  <RotatingSquare
+                    height="100"
+                    width="100"
+                    color="#3e92cc"
+                    ariaLabel="rotating-square-loading"
+                    strokeWidth="4"
+                    visible={true}
+                  />
+                )}
+
                 <div className="p-4">
                   <h3 className="text-xl font-medium mb-0.5">
                     {project.title}
