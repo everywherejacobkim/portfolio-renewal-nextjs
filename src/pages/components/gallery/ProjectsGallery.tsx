@@ -35,7 +35,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ projects }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {!project.image ? (
+                {project.image ? (
                   <Image
                     src={project.image}
                     width={915}
