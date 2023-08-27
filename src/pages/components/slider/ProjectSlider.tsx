@@ -7,6 +7,7 @@ import project3 from "../../../../public/assets/images/projects/bcspcaRenewal.pn
 import project4 from "../../../../public/assets/images/projects/eCommerce.png";
 import project5 from "../../../../public/assets/images/projects/myDailyNote.png";
 import project6 from "../../../../public/assets/images/projects/binaryTree.png";
+import project7 from "../../../../public/assets/images/projects/hopeVillage.jpg";
 
 const projectImages = [
   project1,
@@ -15,19 +16,12 @@ const projectImages = [
   project4,
   project5,
   project6,
+  project7,
 ];
 
-const teamProjectImages = [
-  project1,
-  project2,
-  project3,
-];
+const teamProjectImages = [project1, project2, project3];
 
-const soloProjectImages = [
-  project4,
-  project5,
-  project6,
-];
+const soloProjectImages = [project4, project5, project6, project7];
 
 const ProjectSlider = () => {
   const [isMobileView, setIsMobileView] = useState<boolean>(false);

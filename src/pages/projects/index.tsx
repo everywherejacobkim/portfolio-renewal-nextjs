@@ -77,7 +77,7 @@ const index = () => {
       title: "Binary Tree Parser & Visualizer",
       description:
         "A TypeScript and React-based single-page application for parsing and visualizing binary tree data structures, with a user-friendly interface to help users understand the concept of binary trees.",
-      stack: "React.js | TypeScript | MobX",
+      stack: "React | TypeScript | MobX",
       image: "/assets/images/projects/binaryTree.png",
       link: "https://binary-tree-parser.netlify.app",
       code: "https://github.com/everywherejacobkim/parsing-tree-react-typescript",
@@ -88,7 +88,7 @@ const index = () => {
       title: "Hope Village Sample Website",
       description:
         "The Hope Village sample website offers a user-friendly and theme-based interface that enables customers to explore a variety of sesame oil products.",
-      stack: "React.js | Bootstrap | Tailwind",
+      stack: "React | Bootstrap | Tailwind",
       image: "/assets/images/projects/hopeVillage.jpg",
       link: "https://hope-village-sample.netlify.app",
       code: "https://github.com/everywherejacobkim/hope-village-sample-website",
