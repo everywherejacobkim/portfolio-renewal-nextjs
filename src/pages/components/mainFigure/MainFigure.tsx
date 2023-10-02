@@ -1,16 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import {
-  BsKeyboardFill,
-  BsFillMouse2Fill,
-  BsCloudFog2,
-  BsCamera,
-} from "react-icons/bs";
+import { BsKeyboardFill, BsFillMouse2Fill, BsCloudFog2 } from "react-icons/bs";
 import { FaReact, FaCameraRetro } from "react-icons/fa";
 import { SiTypescript, SiTailwindcss } from "react-icons/si";
 import { ImAirplane } from "react-icons/im";
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
-import mainImage from "../../../../public/assets/images/main-me.png";
+import mainImage from "../../../../public/assets/images/main-me.jpg";
 import Resume from "../buttons/Resume";
 
 type Props = {};
@@ -19,15 +14,15 @@ const MainFigure = (props: Props) => {
   return (
     <>
       <Resume />
-      <div id="main-figure" className="flex mt-2 md:-mb-20 justify-center drop-shadow-2xl rounded-b-full bg-gradient-to-b from-transparent to-primary-50">
+      <div style={{ transform: "translateY(5%)" }}>
         <Image
           src={mainImage}
           alt="me"
-          width={400}
-          height={400}
+          width={550}
+          height={550}
+          className="rounded-full"
           style={{
             filter: "brightness(85%) contrast(95%) grayscale(15%)",
-            transform: "translateX(-2%) translateY(9.5%)",
           }}
         />
       </div>
@@ -36,35 +31,35 @@ const MainFigure = (props: Props) => {
           className="text-white"
           size="5rem"
           style={{
-            transform: "rotate(-50deg) translate(90%, -19.7rem)",
+            transform: "rotate(-50deg) translate(6.5rem, -29.2rem)",
           }}
         />
         <BsFillMouse2Fill
           className="text-white"
           size="3rem"
           style={{
-            transform: "rotate(-50deg) translate(9.5rem, -25.5rem)",
+            transform: "rotate(-50deg) translate(6.9rem, -27.5rem)",
           }}
         />
         <FaReact
           className="reactLogo"
           size="4rem"
           style={{
-            transform: "translate(-11rem, -31.8rem)",
+            transform: "translate(-11.5rem, -25.8rem)",
           }}
         />
         <SiTypescript
           className="jsLogo"
           size="2.5rem"
           style={{
-            transform: "rotate(-45deg) translate(18.5rem, -36.5rem)",
+            transform: "rotate(-45deg) translate(17rem, -38rem)",
           }}
         />
         <SiTailwindcss
           className=""
           size="2rem"
           style={{
-            transform: "translate(-10.3rem, -33.8rem)",
+            transform: "translate(-10.3rem, -34.5rem)",
           }}
         />
       </div>
@@ -73,26 +68,26 @@ const MainFigure = (props: Props) => {
           className="airplane"
           size="4rem"
           style={{
-            transform: "rotate(-15deg) translate(18rem, -35.4rem)",
+            transform: "rotate(-15deg) translate(21rem, -30.4rem)",
           }}
         />
         <BsCloudFog2
           className="airplane text-3xl"
           style={{
-            transform: "translate(11.9rem, -40.7rem)",
+            transform: "translate(16.3rem, -36.8rem)",
           }}
         />
         <FaCameraRetro
           className="hidden md:block camera"
           size="3rem"
           style={{
-            transform: "rotate(35deg) translate(-17rem, -47rem)",
+            transform: "rotate(43deg) translate(-18rem, -45.5rem)",
           }}
         />
         <p
           className="hidden md:block font-kristi text-5xl font-bold"
           style={{
-            transform: "rotate(-45deg) translate(37rem, -23rem)",
+            transform: "rotate(-41deg) translate(25.7rem, -16rem)",
           }}
         >
           develoPer Kim
