@@ -22,7 +22,7 @@ const MainFigure = (props: Props) => {
           height={550}
           className="rounded-full"
           style={{
-            filter: "brightness(85%) contrast(95%) grayscale(15%)",
+            filter: "brightness(90%) contrast(95%) grayscale(10%)",
           }}
         />
       </div>
