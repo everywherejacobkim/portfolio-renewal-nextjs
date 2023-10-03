@@ -8,9 +8,7 @@ import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import mainImage from "../../../../public/assets/images/main-me.jpg";
 import Resume from "../buttons/Resume";
 
-type Props = {};
-
-const MainFigure = (props: Props) => {
+const MainFigure = () => {
   return (
     <>
       <Resume />
@@ -20,7 +18,7 @@ const MainFigure = (props: Props) => {
           alt="me"
           width={550}
           height={550}
-          className="rounded-full"
+          className="rounded-full shadow-lg"
           style={{
             filter: "brightness(90%) contrast(95%) grayscale(10%)",
           }}
@@ -78,14 +76,14 @@ const MainFigure = (props: Props) => {
           }}
         />
         <FaCameraRetro
-          className="hidden md:block camera"
+          className="camera"
           size="3rem"
           style={{
             transform: "rotate(43deg) translate(-18rem, -45.5rem)",
           }}
         />
         <p
-          className="hidden md:block font-kristi text-5xl font-bold"
+          className="font-kristi text-5xl font-bold"
           style={{
             transform: "rotate(-41deg) translate(25.7rem, -16rem)",
           }}
