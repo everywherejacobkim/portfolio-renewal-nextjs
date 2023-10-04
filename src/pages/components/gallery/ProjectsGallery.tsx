@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { RotatingSquare } from "react-loader-spinner";
 
 interface Project {
-  id: number;
+  id: string;
   type: string;
   title: string;
   description: string;
@@ -31,8 +31,7 @@ const ProjectsGallery: React.FC<ProjectsGalleryProps> = ({ projects }) => {
             >
               <motion.a
                 key={project.id}
-                href={project.link}
-                target="_blank"
+                href={project.pdf ? `/projects/${project.id}` : project.link}
                 rel="noopener noreferrer"
               >
                 {project.image ? (
