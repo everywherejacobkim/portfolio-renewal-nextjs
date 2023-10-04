@@ -12,6 +12,7 @@ import { BsGithub } from "react-icons/bs";
 type Props = {};
 
 const index = (props: Props) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const router = useRouter();
   const { id } = router.query;
 

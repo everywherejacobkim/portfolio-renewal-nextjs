@@ -11,6 +11,7 @@ interface Project {
   image: string;
   link: string;
   code: string;
+  pdf?: string;
 }
 
 interface ProjectsGalleryProps {
