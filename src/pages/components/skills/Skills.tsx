@@ -10,15 +10,15 @@ const Skills = () => {
       skills: [
         "HTML/ CSS/ JavaScript",
         "TypeScript",
+        "Next.js",
         "React",
         "React Native",
-        "Next.js",
         "Tailwind CSS",
       ],
     },
     {
       title: "Backend",
-      skills: ["Node.js", "Express", "SQL", "MongoDB", "GraphQL", "REST API"],
+      skills: ["Node.js", "Express", "Firebase", "MongoDB", "GraphQL", "REST API"],
     },
     {
       title: "DevOps",
