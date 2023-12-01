@@ -81,5 +81,15 @@
     "image": "/assets/images/projects/hopeVillage.jpg",
     "link": "https://hope-village-sample.netlify.app",
     "code": "https://github.com/everywherejacobkim/hope-village-sample-website"
+  },
+  {
+    "id": "9",
+    "type": "Solo",
+    "title": "ChirpChat: Mixes short chirpy messages",
+    "description": "ChirpChat offers users a unique experience that blends the brevity of messaging with the immediacy of live conversations.",
+    "stack": "Next.js | NextAuth | Prisma | MongoDB | Tailwind",
+    "image": "/assets/images/projects/chirpChat1.png",
+    "link": "https://github.com/everywherejacobkim/chirp-chat-next13-prisma",
+    "code": "https://github.com/everywherejacobkim/chirp-chat-next13-prisma"
   }
 ]
