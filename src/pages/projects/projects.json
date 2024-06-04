@@ -91,5 +91,15 @@
     "image": "/assets/images/projects/chirpChat1.png",
     "link": "https://github.com/everywherejacobkim/chirp-chat-next13-prisma",
     "code": "https://github.com/everywherejacobkim/chirp-chat-next13-prisma"
+  },
+  {
+    "id": "9",
+    "type": "Solo",
+    "title": "Blaze Books: Single Page Bookstore",
+    "description": "ChirpChat offers users a unique experience that blends the brevity of messaging with the immediacy of live conversations.",
+    "stack": "React | TypeScript | Redux | Sass",
+    "image": "/assets/images/projects/blazeBooks.png",
+    "link": "https://blaze-books.netlify.app",
+    "code": "https://github.com/everywherejacobkim/blaze-books-react-typescript"
   }
 ]
