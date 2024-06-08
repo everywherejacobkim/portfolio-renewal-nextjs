@@ -96,7 +96,7 @@
     "id": "9",
     "type": "Solo",
     "title": "Blaze Books: Single Page Bookstore",
-    "description": "ChirpChat offers users a unique experience that blends the brevity of messaging with the immediacy of live conversations.",
+    "description": "Blaze Books is a single-page application built using Create React App with TypeScript. It is styled with Sass and state managed by Redux.",
     "stack": "React | TypeScript | Redux | Sass",
     "image": "/assets/images/projects/blazeBooks.png",
     "link": "https://blaze-books.netlify.app",
